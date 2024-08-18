@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=9849bf27e9b9717419c1a70979e017ce&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="Container" style="width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.47); align-items: center; justify-content: center;">
+        <ui:Label text="Game Paused" display-tooltip-when-elided="true" name="Paused" style="background-color: rgba(0, 0, 0, 0.26); color: rgb(255, 255, 255); font-size: 49px;" />
+        <ui:Button text="Continue" display-tooltip-when-elided="true" name="ContinueButton" class="button-gray" />
+        <ui:Button text="Load Game" display-tooltip-when-elided="true" name="LoadGame" class="button-gray" style="width: 200px;" />
+        <ui:Button text="Settings" display-tooltip-when-elided="true" name="Settings" class="button-gray" style="width: 200px; opacity: 1; display: none;" />
+        <ui:Button text="Exit To Main Menu" display-tooltip-when-elided="true" name="ExitToMainMenuButton" class="button-gray" style="width: 200px;" />
+    </ui:VisualElement>
+</ui:UXML>
