@@ -326,6 +326,8 @@
 -r:"C:/Users/YuNGM/OneDrive/Documents/VGP - Game Jam/ScalableGameJam/GameJamScalable/Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"C:/Users/YuNGM/OneDrive/Documents/VGP - Game Jam/ScalableGameJam/GameJamScalable/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Analytics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Cinemachine.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Purchasing.Common.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
@@ -370,7 +372,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/Scripts/PlayerMovement.cs"
+"Assets/Jeff_Assets/Scripts/CameraController.cs"
+"Assets/Jeff_Assets/Scripts/CameraToBody.cs"
+"Assets/Jeff_Assets/Scripts/LookAround.cs"
+"Assets/Jeff_Assets/Scripts/PlayerMovement.cs"
 -langversion:9.0
 /deterministic
 /optimize+
