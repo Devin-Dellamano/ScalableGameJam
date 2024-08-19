@@ -23,7 +23,7 @@ public class MainMenuEvents : MonoBehaviour
 
     private void NewGame()
     {
-        SceneManager.LoadSceneAsync("DevinsScene");
+        SceneManager.LoadSceneAsync("JeffScene - Copy");
     }
 
     private void LoadGame()
