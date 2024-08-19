@@ -6,25 +6,39 @@ using UnityEngine.UIElements;
 
 public class MainMenuEvents : MonoBehaviour
 {
-    private UIDocument _document;
-    private Button _button;
+	private VisualElement _mainMenu;
+
     public string _sceneName;
 
     private void Awake()
     {
-        _document = GetComponent<UIDocument>(); 
-        _button = _document.rootVisualElement.Q("NewGame") as Button;
-        _button.RegisterCallback<ClickEvent>(NewGameClick);
+		VisualElement root = GetComponent<UIDocument>().rootVisualElement;
+
+		_mainMenu = root.Q<VisualElement>("MainMenu");
+		root.Q<Button>("NewGame").clicked += () => NewGame();
+		root.Q<Button>("LoadGame").clicked += () => LoadGame();
+		root.Q<Button>("Settings").clicked += () => SettingsMenu();
+		root.Q<Button>("ExitGame").clicked += () => ExitGame();
     }
 
-    private void OnDisable()
+    private void NewGame()
     {
-        _button.UnregisterCallback<ClickEvent>(NewGameClick);
+		SaveLoadSystem.instance.NewGame();
+		Debug.Log("You pressed the New Game button");
     }
 
-    private void NewGameClick(ClickEvent evt)
+    private void LoadGame()
     {
-        SceneManager.LoadScene(_sceneName);
-        Debug.Log("You pressed the New Game button");
+		SaveLoadSystem.instance.LoadGame();
+	}
+
+    private void SettingsMenu()
+    {
+
+    }
+
+    private void ExitGame()
+    {
+        Application.Quit();
     }
 }

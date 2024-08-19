@@ -367,8 +367,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/DevinAssets/Scripts/Checkpoints.cs"
+"Assets/DevinAssets/Scripts/IDataService.cs"
 "Assets/DevinAssets/Scripts/InGameMenuEvents.cs"
+"Assets/DevinAssets/Scripts/JsonDataService.cs"
 "Assets/DevinAssets/Scripts/MainMenuEvents.cs"
+"Assets/DevinAssets/Scripts/PlayerStats.cs"
+"Assets/DevinAssets/Scripts/SaveLoadSystem.cs"
 -langversion:9.0
 /deterministic
 /optimize+

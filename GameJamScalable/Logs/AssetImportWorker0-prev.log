@@ -15,7 +15,7 @@ E:/UnityProjects/GameJam/ScalableGameJam/GameJamScalable
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51652
+58342
 Successfully changed project path to: E:/UnityProjects/GameJam/ScalableGameJam/GameJamScalable
 E:/UnityProjects/GameJam/ScalableGameJam/GameJamScalable
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ E:/UnityProjects/GameJam/ScalableGameJam/GameJamScalable
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [40920] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 3162416246 [EditorId] 3162416246 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IB3UN2E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [76592] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 1126224248 [EditorId] 1126224248 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IB3UN2E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [40920] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 3162416246 [EditorId] 3162416246 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IB3UN2E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [76592] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 1126224248 [EditorId] 1126224248 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IB3UN2E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 52.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.38f1 (7a2fa5d8d101)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -68,77 +68,209 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003432 seconds.
+Registered in 0.003509 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 51.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.376 seconds
+- Completed reload, in  0.399 seconds
 Domain Reload Profiling:
-	ReloadAssembly (376ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (399ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (267ms)
-			LoadAssemblies (52ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (278ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (57ms)
+			SetupTypeCache (60ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (15ms)
-			SetupLoadedEditorAssemblies (170ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (176ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
+				RefreshPlugins (51ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (88ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003399 seconds.
+Registered in 0.003317 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000211BB270780 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB740020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB270780 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Purchasing.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB740020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB768E30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB774040 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BBFDC0D0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB784630 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB316A20 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8DEE740 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB316A20 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleMacosStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB784630 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB774040 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB784630 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB784630 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB463C20 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC024020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB4C2A30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8E0DF50 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAE55440 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB4C2A30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB270780 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAE55440 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB270780 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAE5F850 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B9198950 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAE5F850 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB0DC020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B88F8860 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B0D14B70 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC09BC60 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B91A9760 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB316A20 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB270780 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB270780 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB270780 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB119430 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB270780 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B88F8860 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC09BC60 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BADD0040 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BADD0040 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BADD0040 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BADD0040 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC09BC60 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC0A0C70 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC0A6480 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB119430 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B91CD170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B91CD170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B91CD170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B91CD170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B91CD170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB122840 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB14C250 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B91CF180 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B91CF180 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B91CF180 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB15C260 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B91CF180 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B91CF180 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB161470 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.DevX.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB161470 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB161470 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB167E80 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB167E80 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.040 seconds
+- Completed reload, in  1.045 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1040ms)
+	ReloadAssembly (1046ms)
 		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (891ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (898ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (159ms)
+			SetupTypeCache (163ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (634ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (636ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (496ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (489ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,13 +278,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4081 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 59 unused Assets / (47.9 KB). Loaded Objects now: 4516.
-Memory consumption went from 135.2 MB to 135.1 MB.
-Total: 4.158600 ms (FindLiveObjects: 0.198600 ms CreateObjectMapping: 0.057600 ms MarkObjects: 3.836400 ms  DeleteObjects: 0.065400 ms)
+Unloading 4083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (47.5 KB). Loaded Objects now: 4519.
+Memory consumption went from 135.3 MB to 135.2 MB.
+Total: 4.599300 ms (FindLiveObjects: 0.241400 ms CreateObjectMapping: 0.087100 ms MarkObjects: 4.210400 ms  DeleteObjects: 0.059900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,68 +301,1122 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5980.532541 seconds.
+  Time since last request: 23999.064218 seconds.
+  path: Assets/DevinAssets/Prefabs/InGameMenu.prefab
+  artifactKey: Guid(2b0d64ad1448dfe40b8ffe49e0d81416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DevinAssets/Prefabs/InGameMenu.prefab using Guid(2b0d64ad1448dfe40b8ffe49e0d81416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aee28980884cf0784e2bfa82b2e2c19') in 0.050152 seconds 
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 17.150220 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(f26915b86c2afd9448c8501ac647c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes using Guid(f26915b86c2afd9448c8501ac647c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2807cae55d81cd2243708dca120bb057') in 0.007004 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.295714 seconds.
   path: Assets/Scenes/DevinsScene.unity
   artifactKey: Guid(0da4c997ce0d33f47a2b5367f07dc9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/DevinsScene.unity using Guid(0da4c997ce0d33f47a2b5367f07dc9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f961d2d6c782f59df9954fdfb46f3fa4') in 0.012857 seconds 
+Start importing Assets/Scenes/DevinsScene.unity using Guid(0da4c997ce0d33f47a2b5367f07dc9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ec67ac90acfdcccd60ae9706b3a513') in 0.006828 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 5.756630 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 67.539772 seconds.
+  path: Assets/DevinAssets
+  artifactKey: Guid(060b3db0711937c498ef7ec0ec1eaac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.007232 seconds 
+Start importing Assets/DevinAssets using Guid(060b3db0711937c498ef7ec0ec1eaac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c347588139c7c853a9fdc09162ad6dc') in 0.006907 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 32.021417 seconds.
-  path: Assets/UI Toolkit/PanelSettings.asset
-  artifactKey: Guid(470d992142de8ea44a67e5823959bded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1.410398 seconds.
+  path: Assets/DevinAssets/Scripts
+  artifactKey: Guid(af56ec0cb31af5a4d825fafed506d7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/UI Toolkit/PanelSettings.asset using Guid(470d992142de8ea44a67e5823959bded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff80f14bcfbda9704edd8d1b5323d350') in 0.057974 seconds 
-Number of asset objects unloaded after import = 22
+Start importing Assets/DevinAssets/Scripts using Guid(af56ec0cb31af5a4d825fafed506d7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb83faf3b62dade81f5fa0217da28d2') in 0.007178 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 29.982482 seconds.
-  path: Packages/com.unity.purchasing/Editor/ServiceProjectSettings/UI/UXML/AnalyticsWarning.uxml
-  artifactKey: Guid(e19dce4e8a4c4ef58fe19536b828cc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 11.658417 seconds.
+  path: Assets/DevinAssets/Scripts/CheckpointBehavior.cs
+  artifactKey: Guid(5de902af8a596e546a0b1a672e2bdad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.purchasing/Editor/ServiceProjectSettings/UI/UXML/AnalyticsWarning.uxml using Guid(e19dce4e8a4c4ef58fe19536b828cc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838719ece0c4d9feefd71f327988363b') in 0.012044 seconds 
+Start importing Assets/DevinAssets/Scripts/CheckpointBehavior.cs using Guid(5de902af8a596e546a0b1a672e2bdad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6b61f8a774cc365e2a9bb2f0a9266b') in 0.008348 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003652 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000211BE71A030 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB1DD030 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Purchasing.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB1DD030 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF3F9910 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF0C2010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B90F2230 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF3F9910 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B90F2230 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BE71A030 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B90F2230 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleMacosStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF0C2010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0E44010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF0C2010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAC60010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB222010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8D6E5C0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B90F2230 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C09B44A0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0DEC010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BCE4DE20 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0C9FA90 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8B63A50 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0C9FA90 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BCBF0E00 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB6E8020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF0C2010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BFE5D700 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF0C2010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1E100C0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEE8B050 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0BE5030 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B90F2230 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0C9FA90 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BFE9AB10 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BFE9AB10 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0AAB040 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BFE9AB10 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0C9FA90 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEE8B050 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0C9FA90 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B90F2230 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B90F2230 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B90F2230 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0C9FA90 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEE8B050 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEE90860 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB15C260 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0C00240 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0C00240 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEB20010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0C00240 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0C00240 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEBF0030 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF3F9910 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0C00240 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0C00240 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0C00240 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEB20010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0C00240 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0C00240 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEB29230 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.DevX.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BCBDEDE0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEB29230 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BCBDEDE0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BCBDEDE0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1054ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (884ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (609ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (476ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (64.2 KB). Loaded Objects now: 4525.
+Memory consumption went from 135.0 MB to 135.0 MB.
+Total: 4.565500 ms (FindLiveObjects: 0.212600 ms CreateObjectMapping: 0.070900 ms MarkObjects: 4.231700 ms  DeleteObjects: 0.049800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 150.706756 seconds.
+  path: Assets/DevinAssets/StreetLampType3Free/Prefabs/SM_BackgroundProp.prefab
+  artifactKey: Guid(ade994207829ae342969625bcd452668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DevinAssets/StreetLampType3Free/Prefabs/SM_BackgroundProp.prefab using Guid(ade994207829ae342969625bcd452668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fd540160ee50d2a783847f0817643c') in 0.168270 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 55.637508 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49103ddb131dee35ba8759c97ba2dd04') in 0.007970 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004557 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000211C061D040 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB672250 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Purchasing.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BCB45040 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC916010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB164150 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC978E30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC916010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC978E30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C061D040 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC978E30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleMacosStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B90E7020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0ECB090 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B90E7020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B38E00 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BE664020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8D6E5C0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC978E30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0FF8070 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC4C7010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC978E30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0ECB090 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC4C7010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0ECB090 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BCBF0E00 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF1CE020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1A7D360 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B9290C90 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF19C0A0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C21B9020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0ECB090 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0ECB090 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0ECB090 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0ECB090 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BFA86020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0ECB090 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0ECB090 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B5E281E0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0ECB090 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0ECB090 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0ECB090 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0ECB090 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8EE4010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B928A700 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAB9B890 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1AEC0E0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAB9B890 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAB9B890 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAB9B890 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAB9B890 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAB9B890 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEFC9020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BFFF5020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF1F7A30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF1F7A30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF1F7A30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B5E281E0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF1F7A30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF1F7A30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAB9B890 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.DevX.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B5E281E0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAB9B890 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BCBF0E00 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BCBF0E00 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.056 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1056ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (887ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (148ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (616ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (477ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (22.9 KB). Loaded Objects now: 4535.
+Memory consumption went from 139.4 MB to 139.4 MB.
+Total: 4.374900 ms (FindLiveObjects: 0.251000 ms CreateObjectMapping: 0.059300 ms MarkObjects: 4.039700 ms  DeleteObjects: 0.024400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002659 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000211C0BE5030 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C13A88F0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Purchasing.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8AE3170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB1E3450 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C13A88F0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8AE3170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C13A88F0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0BE5030 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C13A88F0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleMacosStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEB20010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8EE4010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEB20010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1AEC0E0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BFC5E020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB6E8020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C13A88F0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0FF8070 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BFF35020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C13A88F0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C13A88F0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8AE3170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C13A88F0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB1E3450 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8D6E5C0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C07BA040 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B9290C90 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB1E3450 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BFF0B0C0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB1E3450 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF3009A0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C13A88F0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C13A88F0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C13A88F0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C13A88F0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B89A7020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C13A88F0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B26150 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC154020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B26150 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B26150 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B26150 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B26150 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B928A700 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1C0A020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8EE4010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1AEC0E0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8EE4010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8EE4010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAB9B890 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8EE4010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8EE4010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEFC9020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8AE3170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8EE4010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8D97FD0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8D97FD0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BE504040 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8D97FD0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8D97FD0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.DevX.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BE504040 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.022 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1023ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (852ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (594ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (464ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (23.0 KB). Loaded Objects now: 4538.
+Memory consumption went from 139.4 MB to 139.4 MB.
+Total: 4.578300 ms (FindLiveObjects: 0.255400 ms CreateObjectMapping: 0.103300 ms MarkObjects: 4.194000 ms  DeleteObjects: 0.025100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003907 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000211BFBA8030 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Purchasing.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B5E45D10 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8AE3170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C20D8170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8AE3170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BE754010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleMacosStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8B63A50 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BFE96740 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC5D6010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1AEC0E0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BFC5E020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB6E8020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0FF8070 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0DB98B0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8AE3170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C19B6A30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BE7C6020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B911B070 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B9290C90 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BFC32C60 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF8D8070 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB1E3450 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB77C050 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B60F0460 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B60F0460 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEC3A030 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B5E281E0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B927D010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BCBF0E00 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B0B650 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1C0A020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1AEC0E0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B0B650 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B0B650 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAB9B890 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B0B650 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B0B650 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF91A010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8AE3170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B0B650 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BE7EFA30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BE7EFA30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B90E7020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BE7EFA30 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAE5F010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B26150 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.DevX.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B90E7020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B26150 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021203F48D00 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B26150 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1037ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (870ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (617ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (478ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (23.0 KB). Loaded Objects now: 4541.
+Memory consumption went from 139.4 MB to 139.4 MB.
+Total: 5.294400 ms (FindLiveObjects: 0.255100 ms CreateObjectMapping: 0.058600 ms MarkObjects: 4.955100 ms  DeleteObjects: 0.024900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003631 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000211BFE5D700 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B0B650 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Purchasing.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B5E45D10 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8AE3170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BFC32C60 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8FABB40 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8AE3170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8FABB40 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC41D020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8FABB40 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleMacosStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BCB3D020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B88EDA70 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BCB3D020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8AE3170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BE492010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC950020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8FABB40 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0FF8070 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF0EA040 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8FABB40 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B0B650 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8AE3170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B0B650 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0DAF080 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8D6E5C0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEC02010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B9290C90 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BFC32C60 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BEC7C060 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB1E3450 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BB0DC020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B0B650 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B0B650 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B0B650 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B0B650 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BE664020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B0B650 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAE5F010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BC154020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAE5F010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAE5F010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAE5F010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAE5F010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1B7FFC0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C13A88F0 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0AE5030 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8AE3170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0AC5020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0AC5020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BAB9B890 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0AC5020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0AC5020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BF91A010 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211B8AE3170 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0AC5020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0AC5020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0AC5020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BCB3D020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0AC5020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C0AC5020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1C0A020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.DevX.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211BCB3D020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1C0A020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C13DDA20 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000211C1C0A020 doesn't match image E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.033 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1033ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (870ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (618ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (474ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (22.9 KB). Loaded Objects now: 4544.
+Memory consumption went from 139.4 MB to 139.4 MB.
+Total: 4.849000 ms (FindLiveObjects: 0.263500 ms CreateObjectMapping: 0.093800 ms MarkObjects: 4.466900 ms  DeleteObjects: 0.024100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1109.007438 seconds.
+  path: Assets/DevinAssets/StreetLampType3Free/Textures/Unity-2048/street_lamp_3_LampGlass_AlbedoTransparency.png
+  artifactKey: Guid(490d3898d640d2047bfabbf391d7e7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DevinAssets/StreetLampType3Free/Textures/Unity-2048/street_lamp_3_LampGlass_AlbedoTransparency.png using Guid(490d3898d640d2047bfabbf391d7e7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48b9730843c4b0f90219d4538a3b663') in 0.060728 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006313 seconds.
-  path: Packages/com.unity.purchasing/Editor/ServiceProjectSettings/UI/UXML/CatalogEditor.uxml
-  artifactKey: Guid(272fc8157ba0fdf4a97aac7ba51e3c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 26.540839 seconds.
+  path: Assets/DevinAssets/StreetLampType3Free
+  artifactKey: Guid(b5de61e42239e7e4d83690c385b143aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.purchasing/Editor/ServiceProjectSettings/UI/UXML/CatalogEditor.uxml using Guid(272fc8157ba0fdf4a97aac7ba51e3c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670f9db31e3704074e10130f834362b6') in 0.008044 seconds 
+Start importing Assets/DevinAssets/StreetLampType3Free using Guid(b5de61e42239e7e4d83690c385b143aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc7bffd0ab9ebd54f4be1fc9bbefb62') in 0.007487 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.693947 seconds.
+  path: Assets/DevinAssets/StreetLampType3Free/Textures
+  artifactKey: Guid(886e88fdca52f744fbb4ecf299a6bb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DevinAssets/StreetLampType3Free/Textures using Guid(886e88fdca52f744fbb4ecf299a6bb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1eb9e34d29a5a3b84d27195ba586049') in 0.007387 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.605457 seconds.
+  path: Assets/DevinAssets/StreetLampType3Free/Textures/BackgroundProps
+  artifactKey: Guid(5ac1041c4633a54458f8586f08b67d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DevinAssets/StreetLampType3Free/Textures/BackgroundProps using Guid(5ac1041c4633a54458f8586f08b67d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3374f06550ab2dec1578a699372728af') in 0.007402 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.063756 seconds.
+  path: Assets/DevinAssets/StreetLampType3Free/Textures/BackgroundProps/SM_BackgroundProp_Sidewalk_AlbedoTransparency.tga
+  artifactKey: Guid(f2ebfcbc0c7499e43b999a7e8ec628e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DevinAssets/StreetLampType3Free/Textures/BackgroundProps/SM_BackgroundProp_Sidewalk_AlbedoTransparency.tga using Guid(f2ebfcbc0c7499e43b999a7e8ec628e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0b7b62298ee44270501fe7024e3f41') in 0.022068 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.purchasing/Editor/ServiceProjectSettings/UI/UXML/GooglePlayConfiguration.uxml
-  artifactKey: Guid(2551410ce2168804cb697138fe0062ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.019351 seconds.
+  path: Assets/DevinAssets/StreetLampType3Free/Textures/BackgroundProps/SM_BackgroundProp_StoneCurb_Normal.tga
+  artifactKey: Guid(7762cdde56c1fd84f93740da0e0eb243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.purchasing/Editor/ServiceProjectSettings/UI/UXML/GooglePlayConfiguration.uxml using Guid(2551410ce2168804cb697138fe0062ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715d68df33334369a787efd9d6774880') in 0.007242 seconds 
+Start importing Assets/DevinAssets/StreetLampType3Free/Textures/BackgroundProps/SM_BackgroundProp_StoneCurb_Normal.tga using Guid(7762cdde56c1fd84f93740da0e0eb243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9afa01e245327d32f9cc5e5822796b') in 0.039126 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.purchasing/Editor/ServiceProjectSettings/UI/UXML/PlatformSupportVisual.uxml
-  artifactKey: Guid(c3366f3483b39407d88aaf60004a65f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000019 seconds.
+  path: Assets/DevinAssets/StreetLampType3Free/Textures/BackgroundProps/SM_BackgroundProp_StoneWall_AlbedoTransparency.tga
+  artifactKey: Guid(16bbb320f7f7bfe45b138eafce902203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.purchasing/Editor/ServiceProjectSettings/UI/UXML/PlatformSupportVisual.uxml using Guid(c3366f3483b39407d88aaf60004a65f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b878f65ce1773ce755451bc94193b0') in 0.012410 seconds 
+Start importing Assets/DevinAssets/StreetLampType3Free/Textures/BackgroundProps/SM_BackgroundProp_StoneWall_AlbedoTransparency.tga using Guid(16bbb320f7f7bfe45b138eafce902203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc7801f8c737057925c6fa76e961a19') in 0.034104 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.purchasing/Editor/ServiceProjectSettings/UI/UXML/PurchasingProjectSettings.uxml
-  artifactKey: Guid(7bcc2360f5525c542aed6bffb5021271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000024 seconds.
+  path: Assets/DevinAssets/StreetLampType3Free/Textures/BackgroundProps/SM_BackgroundProp_Sidewalk_Normal.tga
+  artifactKey: Guid(8df68a65b55bcf645aea9926402c6ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.purchasing/Editor/ServiceProjectSettings/UI/UXML/PurchasingProjectSettings.uxml using Guid(7bcc2360f5525c542aed6bffb5021271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0df5b36ddb0087f46a83522d3f44d3') in 0.011796 seconds 
+Start importing Assets/DevinAssets/StreetLampType3Free/Textures/BackgroundProps/SM_BackgroundProp_Sidewalk_Normal.tga using Guid(8df68a65b55bcf645aea9926402c6ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166a5bb50d7cd2987612c95335d10642') in 0.029244 seconds 
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DevinAssets/StreetLampType3Free/Textures/BackgroundProps/SM_BackgroundProp_Street_AlbedoTransparency.tga
+  artifactKey: Guid(516f0d3f5e1c41b448966b1f2695b479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DevinAssets/StreetLampType3Free/Textures/BackgroundProps/SM_BackgroundProp_Street_AlbedoTransparency.tga using Guid(516f0d3f5e1c41b448966b1f2695b479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5494bf5edaf11aa2ec548b0f2caacfd') in 0.028870 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DevinAssets/StreetLampType3Free/Textures/BackgroundProps/SM_BackgroundProp_StoneCurb_MetallicSmoothness.tga
+  artifactKey: Guid(caa796899e2d0694f9e7c90156200ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DevinAssets/StreetLampType3Free/Textures/BackgroundProps/SM_BackgroundProp_StoneCurb_MetallicSmoothness.tga using Guid(caa796899e2d0694f9e7c90156200ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c219f68984ecb0bde3f166222ad0d85') in 0.032674 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.057694 seconds.
+  path: Assets/DevinAssets/StreetLampType3Free/Meshes
+  artifactKey: Guid(0761e05c8db99534abe9f59bde54d6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DevinAssets/StreetLampType3Free/Meshes using Guid(0761e05c8db99534abe9f59bde54d6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d51b44f18fc1045911bd041e0fb68ee') in 0.007627 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052525 seconds.
+  path: Assets/DevinAssets/StreetLampType3Free/Meshes/SM_BackgroundProp.fbx
+  artifactKey: Guid(d4c5223978692f14dab70657cc5496e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DevinAssets/StreetLampType3Free/Meshes/SM_BackgroundProp.fbx using Guid(d4c5223978692f14dab70657cc5496e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa17f6a0b4a8e1bafb5cdf4e0de48444') in 0.079274 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 11.857793 seconds.
+  path: Assets/DevinAssets/StreetLampType3Free/Materials/StoneCurb.mat
+  artifactKey: Guid(61f0407b2a99ae0449b5ee53bdd1ea18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DevinAssets/StreetLampType3Free/Materials/StoneCurb.mat using Guid(61f0407b2a99ae0449b5ee53bdd1ea18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959b7b38ecb3169f9b418fef81082786') in 0.025045 seconds 
+Number of asset objects unloaded after import = 1
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

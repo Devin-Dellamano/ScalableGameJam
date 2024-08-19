@@ -1,28 +1,71 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public class InGameMenuEvents : MonoBehaviour
 {
-	private UIDocument _document;
-	private Button _button;
+	private VisualElement _pauseMenu;
+	private bool _isPaused = false;
 
 	private void Awake()
 	{
-		_document = GetComponent<UIDocument>();
-		_button = _document.rootVisualElement.Q("ExitToMainMenuButton") as Button;
-		_button.RegisterCallback<ClickEvent>(ExitToMainMenu);
+		VisualElement root = GetComponent<UIDocument>().rootVisualElement;
+
+		_pauseMenu = root.Q<VisualElement>("InGameMenu");
+		root.Q<Button>("ContinueButton").clicked += () => ResumeGame();
+		root.Q<Button>("SaveGame").clicked += () => SaveGame();
+		root.Q<Button>("LoadGame").clicked += () => LoadGame();
+		root.Q<Button>("ExitToMainMenuButton").clicked += () => ExitToMainMenu();
 	}
 
-	private void OnDisable()
+	private void Update()
 	{
-		_button.UnregisterCallback<ClickEvent>(ExitToMainMenu);
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+			if (_isPaused)
+			{
+				ResumeGame();
+			}
+			else
+			{
+				PauseGame();
+			}
+		}
 	}
 
-	private void ExitToMainMenu(ClickEvent evt)
+	private void PauseGame()
 	{
+		_isPaused = true;
+		_pauseMenu.style.display = DisplayStyle.Flex;
+		Time.timeScale = 0;
+	}
+
+	private void ResumeGame()
+	{
+		_isPaused = false;
+		_pauseMenu.style.display = DisplayStyle.None;
+		Time.timeScale = 1;
+	}
+
+	private void SaveGame()
+	{
+		SaveLoadSystem.instance.SaveGame();
+	}
+
+	private void LoadGame()
+	{
+		SaveLoadSystem.instance.LoadGame();
+	}
+
+	private void ExitToMainMenu()
+	{
+		SaveLoadSystem.instance.SaveGame();
+
 		SceneManager.LoadScene("MainMenu");
 	}
 }

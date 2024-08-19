@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638595108580000000
-    m_Hash: 3682234386
+      ticks: 638596290220000000
+    m_Hash: 1393649040
   m_LockFileStatus:
     m_FilePath: E:/UnityProjects/GameJam/ScalableGameJam/GameJamScalable/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638595109340000000
-    m_Hash: 2257527376
+      ticks: 638596144940000000
+    m_Hash: 3527520312
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -3937,7 +3937,7 @@ m_ResolvedPackages:
     recommendedVersion: 
 - packageId: com.unity.nuget.newtonsoft-json@3.2.1
   testable: 0
-  isDirectDependency: 0
+  isDirectDependency: 1
   version: 3.2.1
   source: 1
   resolvedPath: E:\UnityProjects\GameJam\ScalableGameJam\GameJamScalable\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
