@@ -25,8 +25,9 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 15f;
     public float jumpCoolDown;
     public float airMultiplier;
-    public bool kill;
-    public bool win;
+    public bool Kill = false;
+    public bool Win = false;
+    public bool NoScale = false;
     bool readyToJump = true;
 
     [Header("KeyBind")]
@@ -90,7 +91,8 @@ public class PlayerMovement : MonoBehaviour
             Invoke(nameof(ResetJump), jumpCoolDown);
         }
 
-        if(Input.GetKeyDown(horizontalScale) && canScaleH){
+        if(Input.GetKeyDown(horizontalScale) && canScaleH && !NoScale)
+        {
             scaler.OnScaleH();
             canScaleH = false;
         }
@@ -98,7 +100,8 @@ public class PlayerMovement : MonoBehaviour
             canScaleH = true;
         }
         
-        if(Input.GetKeyDown(verticalScale) && canScaleV){
+        if(Input.GetKeyDown(verticalScale) && canScaleV && !NoScale)
+        {
             scaler.OnScaleV();
             canScaleV = false;
         }
