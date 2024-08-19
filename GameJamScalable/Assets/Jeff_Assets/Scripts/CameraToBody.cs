@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraToBody : MonoBehaviour
 {
+
     [Header("References")]
     public Rigidbody rb;
     public Transform player;

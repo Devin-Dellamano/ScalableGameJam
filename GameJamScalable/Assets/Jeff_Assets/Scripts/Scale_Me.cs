@@ -20,7 +20,7 @@ public class Scale_Me : MonoBehaviour
         ScaleVert = 0.0f;
     }
 
-    private void OnScaleH()
+    public void OnScaleH()
     {
         if (!Vert)
         {
@@ -28,7 +28,7 @@ public class Scale_Me : MonoBehaviour
         }
     }
 
-    private void OnScaleV()
+    public void OnScaleV()
     {
         if (!Horiz)
         {
@@ -41,18 +41,22 @@ public class Scale_Me : MonoBehaviour
         if (ScaleHoiz < MaxHoriz && Horiz)
         {
             ScaleHoiz = ScaleHoiz + 0.1f;
+            PlayerMovement.isScaledH = true;
         }
         else if (ScaleHoiz > 0.0f && !Horiz)
         {
             ScaleHoiz = ScaleHoiz - 0.1f;
+            PlayerMovement.isScaledH = false;
         }
         if (ScaleVert < MaxVert && Vert)
         {
             ScaleVert = ScaleVert + 0.1f;
+            PlayerMovement.isScaledV = true;
         }
        else  if (ScaleVert > 0.0f && !Vert)
         {
             ScaleVert = ScaleVert - 0.1f;
+            PlayerMovement.isScaledV = false;
         }
         transform.localScale = new Vector3(ScaleHoiz + 1.0f - ScaleVert / 2.0f, ScaleVert + 1.0f - ScaleHoiz/2.0f, ScaleHoiz + 1.0f - ScaleVert / 2.0f);
     }

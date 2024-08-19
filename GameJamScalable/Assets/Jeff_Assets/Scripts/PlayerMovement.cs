@@ -2,11 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
+using UnityEditor.Callbacks;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Scale_Me scaler;
+    private bool canScaleH = true;
+    private bool canScaleV = true;
+
     [Header("Movement")]
     public Rigidbody rb;
     Vector3 goDirection;
@@ -15,28 +22,33 @@ public class PlayerMovement : MonoBehaviour
     public float verticalInput = 0f;
     public float playSpeed = 5f;
     public float groundDrag;
-    public float jumpForce;
+    public float jumpForce = 15f;
     public float jumpCoolDown;
     public float airMultiplier;
+    public bool kill;
+    public bool win;
     bool readyToJump = true;
 
     [Header("KeyBind")]
     public KeyCode jumpKey = KeyCode.Space;
-
-
-
+    public KeyCode horizontalScale = KeyCode.LeftShift;
+    public KeyCode verticalScale = KeyCode.LeftControl;
 
     [Header("GroundCheck")]
     public LayerMask whatIsGround;
     public float playerHeight;
     public bool onGround = true;
+    public static bool isScaledV = false;
+    public static bool isScaledH = false;
 
 
     // Start is called before the first frame update
     private void Start()
     {
+        jumpForce = 15f;
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+
     }
 
     // Update is called once per frame
@@ -48,7 +60,15 @@ public class PlayerMovement : MonoBehaviour
             rb.drag = groundDrag;
         }
         else{
-            rb.drag = 0;
+            if(isScaledH && rb.velocity.y < 0){
+                rb.drag = 3f;
+            }
+            else if(isScaledV && rb.velocity.y < 0){
+                rb.drag = -4f;
+            }
+            else{
+                rb.drag = 0;
+            }
         }
     }
 
@@ -68,6 +88,22 @@ public class PlayerMovement : MonoBehaviour
             onGround = false;
 
             Invoke(nameof(ResetJump), jumpCoolDown);
+        }
+
+        if(Input.GetKeyDown(horizontalScale) && canScaleH){
+            scaler.OnScaleH();
+            canScaleH = false;
+        }
+        if(Input.GetKeyUp(horizontalScale) && canScaleH != true ){
+            canScaleH = true;
+        }
+        
+        if(Input.GetKeyDown(verticalScale) && canScaleV){
+            scaler.OnScaleV();
+            canScaleV = false;
+        }
+        if(Input.GetKeyUp(verticalScale) && canScaleV != true){
+            canScaleV = true;
         }
     }
 
@@ -96,14 +132,14 @@ public class PlayerMovement : MonoBehaviour
     
 
     private void Jump(){
-        rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
-        rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
+        rb.AddForce(new Vector3(0, jumpForce, 0), ForceMode.Impulse);
     }
 
     private void OnCollisionEnter(Collision collision){
         // tag all things we run on as terrain
         if(collision.gameObject.tag == "Terrain"){
             onGround = true;
+            rb.drag = 0;
         }
     }
 

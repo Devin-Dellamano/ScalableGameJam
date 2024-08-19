@@ -376,6 +376,7 @@
 "Assets/Jeff_Assets/Scripts/CameraToBody.cs"
 "Assets/Jeff_Assets/Scripts/LookAround.cs"
 "Assets/Jeff_Assets/Scripts/PlayerMovement.cs"
+"Assets/Jeff_Assets/Scripts/Scale_Me.cs"
 -langversion:9.0
 /deterministic
 /optimize+
