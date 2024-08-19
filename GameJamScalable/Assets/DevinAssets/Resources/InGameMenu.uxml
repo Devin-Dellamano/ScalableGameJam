@@ -3,8 +3,8 @@
     <ui:VisualElement name="InGameMenu" style="width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.47); align-items: center; justify-content: center; visibility: visible; display: none;">
         <ui:Label text="Game Paused" display-tooltip-when-elided="true" name="Paused" style="background-color: rgba(0, 0, 0, 0.26); color: rgb(255, 255, 255); font-size: 49px;" />
         <ui:Button text="Continue" display-tooltip-when-elided="true" name="ContinueButton" class="button-gray" />
-        <ui:Button text="Save Game" display-tooltip-when-elided="true" name="SaveGame" class="button-gray" style="width: 200px; display: flex;" />
-        <ui:Button text="Load Game" display-tooltip-when-elided="true" name="LoadGame" class="button-gray" style="width: 200px;" />
+        <ui:Button text="Save Game" display-tooltip-when-elided="true" name="SaveGame" class="button-gray" style="width: 200px; display: none;" />
+        <ui:Button text="Load Game" display-tooltip-when-elided="true" name="LoadGame" class="button-gray" style="width: 200px; display: none;" />
         <ui:Button text="Settings" display-tooltip-when-elided="true" name="Settings" class="button-gray" style="width: 200px; opacity: 1; display: none;" />
         <ui:Button text="Exit To Main Menu" display-tooltip-when-elided="true" name="ExitToMainMenuButton" class="button-gray" style="width: 200px;" />
     </ui:VisualElement>

@@ -5,15 +5,35 @@ using UnityEngine;
 
 public class Checkpoints : MonoBehaviour, IDataPersistence
 {
-	public bool isActive = false;
+	[Header("Checkpoint Active")]
+	[SerializeField] public bool isActive = false;
 
 	public void SaveData(ref GameData data)
 	{
+		if (data.checkpointName.Equals(""))
+		{
+			this.isActive = true;
+			data.checkpointName = this.gameObject.name;
+		}
 		if (!data.checkpointName.Equals(this.gameObject.name))
 		{
 			GameObject.Find(data.checkpointName).GetComponent<Checkpoints>().isActive = false;
 			this.isActive = true;
 			data.checkpointName = this.gameObject.name;
+		}
+	}
+
+	public void Update()
+	{
+		if (isActive)
+		{
+			gameObject.GetComponentInChildren<Cloth>().enabled = true;
+			gameObject.transform.Find("flagcl").gameObject.GetComponent<Renderer>().material.color = Color.white;
+		}
+		else
+		{
+			gameObject.GetComponentInChildren<Cloth>().enabled = false;
+			gameObject.transform.Find("flagcl").gameObject.GetComponent<Renderer>().material.color = Color.black;
 		}
 	}
 
@@ -34,9 +54,7 @@ public class Checkpoints : MonoBehaviour, IDataPersistence
 		if (other.CompareTag("Player"))
         {
 			isActive = true;
-			gameObject.GetComponentInChildren<Cloth>().enabled = true;
-			gameObject.transform.Find("flagcl").gameObject.GetComponent<Renderer>().material.color = Color.white;
-			SaveLoadSystem.instance.SaveGame(this);
+			//SaveLoadSystem.instance.SaveGame(this);
 		}    
 	}
 }

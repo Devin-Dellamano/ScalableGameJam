@@ -10,26 +10,38 @@ public class MainMenuEvents : MonoBehaviour
 
     public string _sceneName;
 
-    private void Awake()
+    [SerializeField] private Button newGameButton;
+    [SerializeField] private Button loadGameButton;
+    [SerializeField] private Button settingsButton;
+    [SerializeField] private Button exitGameButton;
+
+	private void Awake()
     {
 		VisualElement root = GetComponent<UIDocument>().rootVisualElement;
 
 		_mainMenu = root.Q<VisualElement>("MainMenu");
-		root.Q<Button>("NewGame").clicked += () => NewGame();
-		root.Q<Button>("LoadGame").clicked += () => LoadGame();
-		root.Q<Button>("Settings").clicked += () => SettingsMenu();
-		root.Q<Button>("ExitGame").clicked += () => ExitGame();
+        newGameButton = root.Q<Button>("NewGame");
+		newGameButton.clicked += () => NewGame();
+
+        loadGameButton = root.Q<Button>("LoadGame");
+        loadGameButton.clicked += () => LoadGame();
+
+        settingsButton = root.Q<Button>("Settings");
+        settingsButton.clicked += () => SettingsMenu();
+
+        exitGameButton = root.Q<Button>("ExitGame");
+        exitGameButton.clicked += () => ExitGame();
     }
 
     private void NewGame()
     {
-		SaveLoadSystem.instance.NewGame();
-		Debug.Log("You pressed the New Game button");
+		//SaveLoadSystem.instance.NewGame();
+        SceneManager.LoadSceneAsync("DevinsScene");
     }
 
     private void LoadGame()
     {
-		SaveLoadSystem.instance.LoadGame();
+		//SaveLoadSystem.instance.LoadGame();
 	}
 
     private void SettingsMenu()
