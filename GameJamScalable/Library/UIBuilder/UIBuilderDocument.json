@@ -13,37 +13,23 @@
         "m_CodePreviewVisible": true,
         "m_OpenUXMLFiles": [
             {
-                "m_OpenUSSFiles": [
-                    {
-                        "m_StyleSheet": {
-                            "fileID": 7433441132597879392,
-                            "guid": "9849bf27e9b9717419c1a70979e017ce",
-                            "type": 3
-                        },
-                        "m_BackupStyleSheet": {
-                            "instanceID": 0
-                        },
-                        "m_OldPath": "Assets/DevinAssets/Resources/MainMenuStyle.uss"
-                    }
-                ],
-                "m_OpenendVisualTreeAssetOldPath": "Assets/DevinAssets/Resources/InGameMenu.uxml",
+                "m_OpenUSSFiles": [],
+                "m_OpenendVisualTreeAssetOldPath": "Assets/DevinAssets/Resources/MainMenu.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "b3f6fd4525b2cc745b9fd3185de8bb95",
+                    "guid": "2c2f8cec0fdc4ef4b8f6086bb5b53e16",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
-                    "fileID": 7433441132597879392,
-                    "guid": "9849bf27e9b9717419c1a70979e017ce",
-                    "type": 3
+                    "instanceID": 0
                 },
                 "m_Settings": {
-                    "UxmlGuid": "b3f6fd4525b2cc745b9fd3185de8bb95",
-                    "UxmlPath": "Assets/Resources/InGameMenu.uxml",
+                    "UxmlGuid": "2c2f8cec0fdc4ef4b8f6086bb5b53e16",
+                    "UxmlPath": "Assets/Resources/MainMenu.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
-                    "CanvasWidth": 916,
-                    "CanvasHeight": 728,
+                    "CanvasWidth": 815,
+                    "CanvasHeight": 516,
                     "MatchGameView": false,
                     "ZoomScale": 1.0,
                     "PanOffset": {

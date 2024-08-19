@@ -23,13 +23,11 @@ public class MainMenuEvents : MonoBehaviour
 
     private void NewGame()
     {
-		SaveLoadSystem.instance.NewGame();
-		Debug.Log("You pressed the New Game button");
+        SceneManager.LoadSceneAsync("DevinsScene");
     }
 
     private void LoadGame()
     {
-		SaveLoadSystem.instance.LoadGame();
 	}
 
     private void SettingsMenu()

@@ -3,8 +3,8 @@
     "UxmlPath": "Assets/Resources/InGameMenu.uxml",
     "CanvasX": 0,
     "CanvasY": 0,
-    "CanvasWidth": 916,
-    "CanvasHeight": 728,
+    "CanvasWidth": 815,
+    "CanvasHeight": 516,
     "MatchGameView": false,
     "ZoomScale": 1.0,
     "PanOffset": {

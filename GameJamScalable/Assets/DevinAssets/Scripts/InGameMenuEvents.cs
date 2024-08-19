@@ -54,18 +54,18 @@ public class InGameMenuEvents : MonoBehaviour
 
 	private void SaveGame()
 	{
-		SaveLoadSystem.instance.SaveGame();
 	}
 
 	private void LoadGame()
 	{
-		SaveLoadSystem.instance.LoadGame();
 	}
 
 	private void ExitToMainMenu()
 	{
-		SaveLoadSystem.instance.SaveGame();
+		_isPaused = false;
+		_pauseMenu.style.display = DisplayStyle.None;
+		Time.timeScale = 1;
 
-		SceneManager.LoadScene("MainMenu");
+		SceneManager.LoadSceneAsync("MainMenu");
 	}
 }
