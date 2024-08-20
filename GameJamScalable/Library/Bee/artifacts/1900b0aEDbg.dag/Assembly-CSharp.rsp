@@ -375,6 +375,8 @@
 "Assets/DevinAssets/Scripts/Checkpoints.cs"
 "Assets/DevinAssets/Scripts/FileDataHandler.cs"
 "Assets/DevinAssets/Scripts/GameData.cs"
+"Assets/DevinAssets/Scripts/GameOverScreen.cs"
+"Assets/DevinAssets/Scripts/HowToPlay.cs"
 "Assets/DevinAssets/Scripts/IDataPersistence.cs"
 "Assets/DevinAssets/Scripts/InGameMenuEvents.cs"
 "Assets/DevinAssets/Scripts/MainMenuEvents.cs"

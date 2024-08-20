@@ -40,6 +40,9 @@ public class InGameMenuEvents : MonoBehaviour
 
 	private void PauseGame()
 	{
+        UnityEngine.Cursor.lockState = CursorLockMode.None;
+		UnityEngine.Cursor.visible = true;
+
 		_isPaused = true;
 		_pauseMenu.style.display = DisplayStyle.Flex;
 		Time.timeScale = 0;
@@ -47,6 +50,9 @@ public class InGameMenuEvents : MonoBehaviour
 
 	private void ResumeGame()
 	{
+		UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+		UnityEngine.Cursor.visible = false;
+
 		_isPaused = false;
 		_pauseMenu.style.display = DisplayStyle.None;
 		Time.timeScale = 1;
@@ -63,7 +69,6 @@ public class InGameMenuEvents : MonoBehaviour
 	private void ExitToMainMenu()
 	{
 		_isPaused = false;
-		_pauseMenu.style.display = DisplayStyle.None;
 		Time.timeScale = 1;
 
 		SceneManager.LoadSceneAsync("MainMenu");

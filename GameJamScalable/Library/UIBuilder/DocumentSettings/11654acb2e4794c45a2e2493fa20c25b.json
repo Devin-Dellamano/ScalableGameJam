@@ -1,0 +1,30 @@
+{
+    "UxmlGuid": "11654acb2e4794c45a2e2493fa20c25b",
+    "UxmlPath": "Assets/DevinAssets/Resources/HowToPlay.uxml",
+    "CanvasX": 0,
+    "CanvasY": 0,
+    "CanvasWidth": 778,
+    "CanvasHeight": 571,
+    "MatchGameView": false,
+    "ZoomScale": 1.0,
+    "PanOffset": {
+        "x": 23.0,
+        "y": 26.21429443359375
+    },
+    "ColorModeBackgroundOpacity": 1.0,
+    "ImageModeCanvasBackgroundOpacity": 1.0,
+    "CameraModeCanvasBackgroundOpacity": 1.0,
+    "EnableCanvasBackground": false,
+    "CanvasBackgroundMode": 0,
+    "CanvasBackgroundColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 255.0
+    },
+    "CanvasBackgroundImage": {
+        "instanceID": 0
+    },
+    "CanvasBackgroundImageScaleMode": 1,
+    "CanvasBackgroundCameraName": ""
+}

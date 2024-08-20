@@ -5,7 +5,13 @@ using UnityEngine;
 public class Finish : MonoBehaviour
 {
     public GameObject Player;
-    private void OnTriggerEnter(Collider other)
+
+	private void Awake()
+	{
+		Player = GameObject.Find("Player");
+	}
+
+	private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.name != "Player")
         {

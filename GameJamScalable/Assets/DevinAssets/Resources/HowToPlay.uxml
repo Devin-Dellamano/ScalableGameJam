@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="HowToPlay" style="align-items: center; justify-content: center; width: 100%; height: 100%; background-color: rgb(0, 0, 0); display: none;">
+        <ui:Label text="Move the camera with your mouse" display-tooltip-when-elided="true" name="CameraMovement" style="-unity-text-outline-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); font-size: 25px;" />
+        <ui:Label text="Move forward with the W key" display-tooltip-when-elided="true" name="MoveForward" style="-unity-text-outline-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); font-size: 25px;" />
+        <ui:Label text="Move backwards with the S key" display-tooltip-when-elided="true" name="MoveBackwards" style="-unity-text-outline-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); font-size: 25px;" />
+        <ui:Label text="Move left with the A key" display-tooltip-when-elided="true" name="MoveLeft" style="-unity-text-outline-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); font-size: 25px;" />
+        <ui:Label text="Move right with the D key" display-tooltip-when-elided="true" name="MoveRight" style="-unity-text-outline-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); font-size: 25px;" />
+        <ui:Label text="Scale wider with the Shift key" display-tooltip-when-elided="true" name="Widen" style="-unity-text-outline-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); font-size: 25px;" />
+        <ui:Label text="Scale taller with the Ctrl key" display-tooltip-when-elided="true" name="Heighten" style="-unity-text-outline-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); font-size: 25px;" />
+        <ui:Button text="Continue" display-tooltip-when-elided="true" name="ContinueButton" style="justify-content: flex-start; align-items: stretch; width: 190px; color: rgb(0, 0, 0); font-size: 25px; display: flex;" />
+        <ui:Button text="Back" display-tooltip-when-elided="true" name="BackButton" style="justify-content: flex-start; align-items: stretch; width: 190px; color: rgb(0, 0, 0); font-size: 25px;" />
+    </ui:VisualElement>
+</ui:UXML>

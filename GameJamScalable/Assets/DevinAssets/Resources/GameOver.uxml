@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="GameOverPanel" style="width: 100%; height: 100%; background-color: rgba(0, 0, 0, 255); align-items: center; justify-content: center;">
+        <ui:Label text="Congratulations! You won!" display-tooltip-when-elided="true" name="CongratulationsText" style="color: rgb(255, 255, 255); font-size: 33px; align-items: center; justify-content: flex-end; -unity-text-align: upper-center;" />
+        <ui:Label text="Thank you for playing our game!" display-tooltip-when-elided="true" name="ThankYouText" style="color: rgba(255, 255, 255, 255); font-size: 33px; align-items: center; justify-content: flex-end; -unity-text-align: upper-center;" />
+        <ui:Button text="Main Menu" display-tooltip-when-elided="true" name="MainMenuButton" style="width: 227px;" />
+        <ui:Button text="Exit Game" display-tooltip-when-elided="true" name="ExitGameButton" style="width: 227px;" />
+    </ui:VisualElement>
+</ui:UXML>

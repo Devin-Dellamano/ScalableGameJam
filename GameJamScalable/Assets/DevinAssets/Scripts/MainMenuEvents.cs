@@ -6,25 +6,31 @@ using UnityEngine.UIElements;
 
 public class MainMenuEvents : MonoBehaviour
 {
-	private VisualElement _mainMenu;
-
-    public string _sceneName;
+	public VisualElement _mainMenu;
+	public VisualElement _controlMenu;
 
     private void Awake()
     {
-		VisualElement root = GetComponent<UIDocument>().rootVisualElement;
+		UnityEngine.Cursor.lockState = CursorLockMode.None;
+		UnityEngine.Cursor.visible = true;
 
-		_mainMenu = root.Q<VisualElement>("MainMenu");
-		root.Q<Button>("NewGame").clicked += () => NewGame();
-		root.Q<Button>("LoadGame").clicked += () => LoadGame();
-		root.Q<Button>("Settings").clicked += () => SettingsMenu();
-		root.Q<Button>("ExitGame").clicked += () => ExitGame();
+		VisualElement rootMainMenu = GameObject.Find("MainMenu").GetComponent<UIDocument>().rootVisualElement;
+		VisualElement rootControlMenu = GameObject.Find("HowToPlay").GetComponent<UIDocument>().rootVisualElement;
+
+		_mainMenu = rootMainMenu.Q<VisualElement>("MainMenu");
+		_controlMenu = rootControlMenu.Q<VisualElement>("HowToPlay");
+
+		_mainMenu.Q<Button>("NewGame").clicked += () => NewGame();
+		_mainMenu.Q<Button>("LoadGame").clicked += () => LoadGame();
+		_mainMenu.Q<Button>("Settings").clicked += () => SettingsMenu();
+		_mainMenu.Q<Button>("ExitGame").clicked += () => ExitGame();
     }
 
     private void NewGame()
     {
-        SceneManager.LoadSceneAsync("JeffScene - Copy");
-    }
+		_mainMenu.style.display = DisplayStyle.None;
+		_controlMenu.style.display = DisplayStyle.Flex;
+	}
 
     private void LoadGame()
     {

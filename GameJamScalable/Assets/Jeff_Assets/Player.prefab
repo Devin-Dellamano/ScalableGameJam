@@ -93,7 +93,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 6a6fc06d757a66a45af06c4164f9e842, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 3274602107498283173}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -191,6 +191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810cb9aae7fdcba4195eef36fd403952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scaler: {fileID: 0}
   rb: {fileID: 3274602107498283178}
   orientation: {fileID: 3274602106498383737}
   horizantalInput: 0
@@ -200,7 +201,12 @@ MonoBehaviour:
   jumpForce: 12
   jumpCoolDown: 0.25
   airMultiplier: 0.4
+  Kill: 0
+  Win: 0
+  NoScale: 0
   jumpKey: 32
+  horizontalScale: 304
+  verticalScale: 306
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64

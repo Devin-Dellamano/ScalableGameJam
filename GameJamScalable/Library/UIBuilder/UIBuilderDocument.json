@@ -14,22 +14,22 @@
         "m_OpenUXMLFiles": [
             {
                 "m_OpenUSSFiles": [],
-                "m_OpenendVisualTreeAssetOldPath": "Assets/DevinAssets/Resources/PauseButton.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/DevinAssets/Resources/GameOver.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "4a59c5ad933ff6c4493e81a97ce67d02",
+                    "guid": "b2f8202bc2695a34fad50016190e149d",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
                     "instanceID": 0
                 },
                 "m_Settings": {
-                    "UxmlGuid": "4a59c5ad933ff6c4493e81a97ce67d02",
-                    "UxmlPath": "Assets/DevinAssets/Resources/PauseButton.uxml",
+                    "UxmlGuid": "b2f8202bc2695a34fad50016190e149d",
+                    "UxmlPath": "Assets/DevinAssets/Resources/GameOver.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
-                    "CanvasWidth": 815,
-                    "CanvasHeight": 516,
+                    "CanvasWidth": 778,
+                    "CanvasHeight": 571,
                     "MatchGameView": false,
                     "ZoomScale": 1.0,
                     "PanOffset": {

@@ -1,12 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using Unity.VisualScripting;
-using UnityEditor.Callbacks;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -71,7 +64,15 @@ public class PlayerMovement : MonoBehaviour
                 rb.drag = 0;
             }
         }
-    }
+        if (Kill)
+        {
+			SceneManager.LoadSceneAsync("First_Level");
+		}
+        if (Win)
+        {
+			SceneManager.LoadSceneAsync("GameOverScene");
+		}
+	}
 
     private void FixedUpdate() {
         MovePlayer();
